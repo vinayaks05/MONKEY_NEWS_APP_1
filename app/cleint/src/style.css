@@ -1,0 +1,66 @@
+.main-body{
+    display: block;
+    padding: 20px;
+    background-color: rgb(236, 234, 239);
+}
+.news-card{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+.btn-save{
+    margin-left: 50px;
+    background-color: rgb(143, 140, 140);
+}
+.btn-save:hover{
+    margin-left: 50px;
+    background-color: rgb(239, 235, 235);
+    color: #000;
+}
+.news-date{
+    text-align: right;
+}
+.news-agency{
+    text-align: left;
+}
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
