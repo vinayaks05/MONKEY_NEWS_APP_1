@@ -7,7 +7,7 @@ function Navigation() {
   const storedItems = window.localStorage.getItem("userInfo");
   const [userInfo, setUserInfo] = React.useState(storedItems)
   React.useEffect(()=>{
-    setUserInfo(localStorage.setItem("userInfo", userInfo))
+    (localStorage.setItem("userInfo", userInfo))
   }, [userInfo])
   console.log("LocalDATAIN NAV", (window.localStorage.getItem("userInfo")))
   
